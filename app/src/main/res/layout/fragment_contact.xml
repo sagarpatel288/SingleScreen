@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Match"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        style="@style/Match"
+        android:orientation="vertical"
+        >
+
+        <!--Full Name-->
+        <TextView
+            style="@style/TxtHeader.TxtHeading.Drawable"
+            android:drawableLeft="@drawable/ic_user_default"
+            android:drawableStart="@drawable/ic_user_default"
+            android:paddingBottom="@dimen/view_space"
+            android:paddingTop="@dimen/view_space"
+            android:text="@string/label_name"
+            />
+
+        <!--Address-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:layout_gravity="start"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_person_location_black"
+            android:drawableStart="@drawable/ic_person_location_black"
+            android:gravity="start"
+            android:singleLine="false"
+            android:text="@string/label_address"
+            android:textAlignment="textStart"
+            />
+
+        <!--Web Address-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_web"
+            android:drawableStart="@drawable/ic_web"
+            android:text="@string/label_web_address"
+            />
+
+        <!--Email-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_email_black"
+            android:drawableStart="@drawable/ic_email_black"
+            android:text="@string/label_email"
+            />
+
+        <!--Contact-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone_black"
+            android:drawableStart="@drawable/ic_phone_black"
+            android:text="@string/label_phone"
+            />
+
+        <!--Working hours-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:drawableLeft="@drawable/ic_working_hours_time"
+            android:drawableStart="@drawable/ic_working_hours_time"
+            android:text="@string/label_working_hours"
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

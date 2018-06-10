@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--About us description in About us section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_about_us_description">The Journey of Patel-Apps Pvt Ltd has been started in early 2014 when three friends decided to do something new with their unique innovative ideas &amp; creativity. Our unified efforts have bring the company from a garage start-up to a conglomerate whose businesses span across three country.</string>
+    <!--What we do title in About us section [CHAR LIMIT = 30, single line]-->
+    <string name="label_what_we_do_title">What we do?</string>
+    <!--What do we do description in About us section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_what_we_do_des">When someone asks what we do, it\'s tempting to point out our track record for helping to transform the small start up into success. It\'s true; our mission is to deliver strong, robust software solutions to our clients.</string>
+    <!--How do we do title in About us section [CHAR LIMIT = 30, single line]-->
+    <string name="label_how_do_we_do_title">How do we do it?</string>
+    <!--How do we do description in About us section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_how_do_des">We recognize our primary asset is our people. To be successful, We must be a rewarding place to work. We provide opportunity and encouragement to help our people reach their goal. We work with our clients as a team. this made the company into what it is today.</string>
+</resources>

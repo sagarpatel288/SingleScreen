@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Company title to be shown on Contact section [CHAR LIMIT = 30, single line]-->
+    <string name="label_name">Patel-Apps Pvt Ltd</string>
+    <!--Company address to be shown on Contact section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_address">A-614, Empire Business Hub, Science City Road, Sola, Ahmedabad, Gujarat - 380060</string>
+    <!--Company email address to be shown on Contact section [CHAR LIMIT = 30, single line]-->
+    <string name="label_email">info@patel-apps.com</string>
+    <!--Company phone number to be shown on Contact section [CHAR LIMIT = 30, single line]-->
+    <string name="label_phone">+91 – 9429359528</string>
+    <!--Company web address to be shown on Contact section [CHAR LIMIT = 30, single line]-->
+    <string name="label_web_address">https://patel-apps.com</string>
+    <!--Company working hours to be shown on Contact section [CHAR LIMIT = 30, single line]-->
+    <string name="label_working_hours">09:30 To 18:30, GMT + 5:30</string>
+</resources>

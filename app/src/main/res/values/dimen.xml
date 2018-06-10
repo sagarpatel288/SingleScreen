@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dimension being used inside collapse toolbar layout for imageview in main screen-->
+    <dimen name="height_collapse_img">256dp</dimen>
+    <!--Dimension being used for surrounding view space-->
+    <dimen name="view_space">16dp</dimen>
+    <!--Dimension being used by textViews throughout the app-->
+    <dimen name="tv_heading_four">18sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <!--App title [CHAR LIMIT = 30]-->
+    <string name="app_name">SingleScreen</string>
+    <!--Content description for accessibility on descriptive image of company [CHAR LIMIT = NO, multiple line]-->
+    <string name="cd_detail_img">Profile image of patel-apps pvt ltd</string>
+    <!--Content description for accessibility on image logo of company [CHAR LIMIT = NO, multiple line]-->
+    <string name="cd_detail_logo">Logo of patel-apps pvt ltd</string>
+    <!--Tab title to be shown on TabLayout [CHAR LIMIT = 11, single line]-->
+    <string name="label_about_us_title">About Us</string>
+    <!--Tab title to be shown on TabLayout [CHAR LIMIT = 11, single line]-->
+    <string name="label_product_title">Products</string>
+    <!--Tab title to be shown on TabLayout [CHAR LIMIT = 11, single line]-->
+    <string name="label_contact_title">Contact</string>
+</resources>

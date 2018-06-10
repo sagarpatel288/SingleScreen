@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Match"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        style="@style/Match"
+        android:orientation="vertical"
+        >
+
+        <!--WeCards-->
+        <TextView
+            android:id="@+id/tv_we_cards"
+            style="@style/Txt.TxtTitle.Drawable"
+            />
+
+        <!--Web Address-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_web"
+            android:drawableStart="@drawable/ic_web"
+            android:text="@string/label_we_card_link"
+            />
+
+        <!--JobsAdBoard-->
+        <TextView
+            android:id="@+id/tv_jobs_ad_board"
+            style="@style/Txt.TxtTitle.Drawable"
+            />
+
+        <!--Web Address-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_web"
+            android:drawableStart="@drawable/ic_web"
+            android:text="@string/label_jobs_ad_link"
+            />
+
+        <!--Weenkm-->
+        <TextView
+            android:id="@+id/tv_weenkm"
+            style="@style/Txt.TxtTitle.Drawable"
+            />
+
+        <!--Web Address-->
+        <TextView
+            style="@style/Txt.TxtTitle.Drawable"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_web"
+            android:drawableStart="@drawable/ic_web"
+            android:text="@string/label_weenkm_link"
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

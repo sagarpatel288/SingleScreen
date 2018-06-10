@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Match"
+    tools:context=".ui.activities.carddetail.CardDetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_collapse_img"
+            android:layout_marginTop="@dimen/view_space"
+            android:background="@android:color/white"
+            app:contentScrim="@android:color/white"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            >
+
+            <LinearLayout
+                style="@style/Match"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                app:layout_collapseMode="parallax"
+                >
+
+                <!--Company logo-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/cd_detail_logo"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_logo_patel_apps"
+                    />
+
+                <!--Company image description-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_collapse_img"
+                    android:contentDescription="@string/cd_detail_img"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_img_patel_apps"
+                    app:layout_collapseMode="parallax"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorImgBgGreen"
+                    />
+
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            >
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        style="@style/Match"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+    </android.support.v4.view.ViewPager>
+
+</android.support.design.widget.CoordinatorLayout>

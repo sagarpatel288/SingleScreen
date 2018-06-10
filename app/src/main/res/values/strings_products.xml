@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--WeCards title to be shown on product section [CHAR LIMIT = 30, single line]-->
+    <string name="label_we_card_title">WeCards</string>
+    <!--WeCards description to be shown on product section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_we_card_des">WeCards is a convenient and easy way to create, store, receive and share electronic business cards with your most updated contact information, allowing you to be contactable as and when you want.</string>
+    <!--WeCards link to be shown on product section [Not to translate]-->
+    <string name="label_we_card_link">https://www.we.cards</string>
+    <!--JobsAdBoard title to be shown on product section [CHAR LIMIT = 30, single line]-->
+    <string name="label_jobs_ad_title">JobsAdBoard</string>
+    <!--JobsAdBoard description to be shown on product section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_jobs_ad_des">Helping you find the right job. Worldwide</string>
+    <!--JobsAdBoad link to be shown on product section [Not to translate]-->
+    <string name="label_jobs_ad_link">http://jobseeker.jabo.ph</string>
+    <!--Weenkm title to be shown on product section [CHAR LIMIT = 30, single line]-->
+    <string name="label_weenkm_title">Weenkm</string>
+    <!--Weenkm description to be shown on product section [CHAR LIMIT = NO, multiple line]-->
+    <string name="label_weenkm_des">Find and reserve your favorite food trucks and food carts with Weenkm, the hub for all street food and catering.</string>
+    <!--Weenkm link to be shown on product section [Not to translate]-->
+    <string name="label_weenkm_link">http://weenkmapp.com/</string>
+</resources>

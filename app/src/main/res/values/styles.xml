@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Base theme for all views whose width and height are match_parent-->
+    <style name="Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--Base theme for textViews-->
+    <style name="Txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tv_heading_four</item>
+        <item name="android:paddingLeft">@dimen/view_space</item>
+        <item name="android:paddingRight">@dimen/view_space</item>
+        <item name="android:layout_marginLeft">@dimen/view_space</item>
+        <item name="android:layout_marginRight">@dimen/view_space</item>
+        <item name="android:autoLink">all</item>
+    </style>
+
+    <!--Theme for header textViews-->
+    <style name="TxtHeader" parent="Txt">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Theme for headings-->
+    <style name="TxtHeader.TxtHeading">
+        <item name="android:paddingTop">@dimen/view_space</item>
+        <item name="android:paddingBottom">@dimen/view_space</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Theme for headings with drawables-->
+    <style name="TxtHeader.TxtHeading.Drawable">
+        <item name="android:drawablePadding">@dimen/view_space</item>
+        <item name="android:textSize">@dimen/tv_heading_four</item>
+    </style>
+
+    <!--Theme for titles-->
+    <style name="Txt.TxtTitle">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--Theme for titles with drawables-->
+    <style name="Txt.TxtTitle.Drawable">
+        <item name="android:drawablePadding">@dimen/view_space</item>
+        <item name="android:padding">@dimen/view_space</item>
+    </style>
+
+</resources>
